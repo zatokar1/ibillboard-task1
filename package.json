@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "iBillboard task 1",
+  "main": "test.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^3.5.0",
+    "console-stamp": "^0.2.5",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "mocha": "^3.4.2",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ondrej Tokar",
+  "license": "ISC"
+}
