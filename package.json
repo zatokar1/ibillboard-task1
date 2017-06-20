@@ -1,21 +1,33 @@
 {
-  "name": "test1",
+  "name": "ibillboard-task1",
   "version": "1.0.0",
-  "description": "iBillboard task 1",
-  "main": "test.js",
+  "description": "Test task - HTTP get and post, DB redis read and write, File read and write, tests",
+  "main": "httpServer.js",
+  "directories": {
+    "test": "tests"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
-    "chai": "^3.5.0",
     "console-stamp": "^0.2.5",
     "express": "^4.15.3",
-    "fs": "0.0.1-security",
-    "mocha": "^3.4.2",
+    "fs": "^0.0.1-security",
     "redis": "^2.7.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^3.4.2",
+	"chai": "^3.5.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zatokar1/ibillboard-task1.git"
   },
   "author": "Ondrej Tokar",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zatokar1/ibillboard-task1/issues"
+  },
+  "homepage": "https://github.com/zatokar1/ibillboard-task1#readme"
 }
